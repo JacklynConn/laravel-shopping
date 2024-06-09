@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+/* Global Color */
+:root {
+    --gray : #EBEBEB;
+    --white : #FFFFFF;
+    --blue : #0A2F57;
+    --yellow : #FBBA00;
+    --green : #00BE40;
+    --pink : #F25D92;
+    --black : #211E1E;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Urbanist', sans-serif !important;
+
+}
+
+.news .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    grid-row-gap: 50px;
+    grid-column-gap: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.news .col-4  {
+    width: 320px;
+    height: 500px;
+    margin-bottom: 40px;
+    padding-top: 45px;
+   
+}
+.news .col-4  figure{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.news .col-4 figure .thumbnail {
+    width: 100%;
+    height: 70%;
+    position: relative;
+}
+
+.news .col-4 figure .thumbnail .stock-status{
+    z-index: 100;
+    padding: 5px 10px;
+    position: absolute;
+    color: var(--white);
+    background-color: var(--yellow);
+}
+.news .col-4 figure .thumbnail a{
+    width: 100%;
+    height: 100%;
+}
+.news .col-4 figure .thumbnail a > img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.news .col-4  figure .thumbnail img:hover ,
+.news-detail figure .thumbnail img:hover  {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgb(0 0 0 / 20%);
+}
+
+
+.news .col-4:nth-child(1){
+    width: 550px;
+}
+/* .news .col-4:nth-child(2){
+    
+}
+.news .col-4:nth-child(3){
+    padding-top: 40px;
+} */
+.news .col-4:nth-child(5){
+    width: 500px;
+ 
+}
+
+.news .col-4:nth-child(8){
+    width: 500px;
+ 
+}
+
+.news .col-4:nth-child(12){
+    width: 500px;
+ 
+}
+/* detail */
+
+.news .col-4  figure .detail{
+    border-radius:0 0 4px 4px;
+    height: 30%;
+    padding: 10px 5px 25px 5px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    overflow: hidden;
+
+}
+
+
+.news .col-4  figure .detail .title{
+    width: 100%;
+    font-weight: bolder;
+    height: 20%;
+}
+
+.ellipsis {
+    overflow: hidden;
+    height: 80%;
+    line-height: 25px;
+    color: #000;
+    width: 100%;
+
+  }
+  
+  .ellipsis:before {
+    content: "";
+    float: left;
+    width: 5px;
+    height: 100%;
+  }
+  
+  .ellipsis>*:first-child {
+    float: right;
+    width: 100%;
+    margin-left: -5px;
+  }
+  
+  .ellipsis:after {
+    content: "...";
+  
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    float: right;
+    font-size: 40px;
+    position: relative;
+    top: -35px;
+    left: 98%;
+    width: 3em;
+    margin-left: -3em;
+    padding-right: 5px;
+    text-align: right;
+    background-size: 50% 50%;
+    /* 512x1 image,gradient for IE9. Transparent at 0% -> white at 50% -> white at 100%.*/
+  
+    background: -webkit-gradient(linear, left , right , from(rgba(255, 255, 255, 0)), to(white), color-stop(70%, white));
+    background: -moz-linear-gradient(to right, rgba(255, 255, 255, 0), white 70%, white);
+    background: -o-linear-gradient(to right, rgb(255, 255, 255), white 70%, white);
+    background: -ms-linear-gradient(to right, rgba(255, 255, 255, 0), white 70%, white);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white 70%, white);
+
+  }
