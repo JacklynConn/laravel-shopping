@@ -11,6 +11,8 @@
 ## About Laravel
 
 ![image](https://github.com/JacklynConn/laravel-shopping/assets/148744079/b3bf9ecb-a2ec-4c86-8049-2af27c9b77c2)
+![image](https://github.com/JacklynConn/laravel-shopping/assets/148744079/2bd1be42-16f0-4d67-a261-4095cbd083b7)
+
 
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
