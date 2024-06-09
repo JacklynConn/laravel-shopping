@@ -1,5 +1,4 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
-![image](https://github.com/JacklynConn/laravel-shopping/assets/148744079/b3bf9ecb-a2ec-4c86-8049-2af27c9b77c2)
 
 
 <p align="center">
@@ -10,6 +9,9 @@
 </p>
 
 ## About Laravel
+
+![image](https://github.com/JacklynConn/laravel-shopping/assets/148744079/b3bf9ecb-a2ec-4c86-8049-2af27c9b77c2)
+
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
